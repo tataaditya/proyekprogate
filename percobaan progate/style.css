@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+header {
+  background-color: #404146;
+}
+
+.heading {
+  display: flex;
+  margin-top: 10px;
+  padding: 5px 0px;
+}
+
+.heading h1 {
+  color: white;
+  text-align: center;
+  padding-top: 8px;
+  padding-left: 10px;
+  font-size: 30px;
+}
+
+.heading a {
+  color: white;
+  float: left;
+  padding: 15px 10px;
+  font-weight: 10px;
+}
+
+.container {
+  margin-left: 25px;
+}
+
+.home {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.home h1 {
+  color: #404146;
+  width: 100%;
+  font-size: 60px;
+}
+
+.home span {
+  color: #f1d00e;
+}
+
+.home h3 {
+  color: #404146;
+  font-weight: 20;
+  padding-top: 10px;
+  font-size: 25px;
+}
+
+.gambar_home {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.desc {
+  background-color: #f4f4f4;
+  margin-top: 90px;
+  padding: 50px 0px;
+}
+
+.desc h4 {
+  font-weight: bold;
+  font-size: 17px;
+  font-size: 25px;
+}
+
+.desc p {
+  padding: 20px 300px;
+  font-family: sans-serif;
+}
+
+.gambar {
+  height: 100px;
+  width: 100px;
+}
+
+.pict {
+  text-align: center;
+  margin-top: 80px;
+  padding-bottom: 50px;
+}
+
+.pict h4 {
+  font-weight: 250 solid black;
+  font-size: 25px;
+}
+
+.gambar_pict {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.gambar {
+  width: 250px;
+  margin: 0px 80px;
+  height: 200px;
+}
+
+.picture p {
+  margin-top: 10px;
+}
+
+.contact {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.contact h3 {
+  font-weight: 250 solid black;
+}
+
+.feedback {
+  padding: 20px;
+}
+
+.email {
+  margin: 30px;
+  height: 30px;
+  width: 1000px;
+  border: none;
+}
+
+.message {
+  height: 50px;
+  width: 1000px;
+  padding-top: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Verdana, sans-serif;
+  border: none;
+}
+
+.button {
+  width: 600px;
+  height: 50px;
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  font-weight: bold;
+  color: #7c7d82;
+  background-color: #f7e989;
+  border: none;
+}
+
+footer {
+  background-color: #7c7d82;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-top: 90px;
+}
+
+.FL {
+  padding: 15px;
+  font-size: 30px;
+}
+
+.FR {
+  margin: 20px 0px;
+}
+
+.FR p {
+  padding: 10px;
+  margin: 3px;
+}
